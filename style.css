@@ -1,0 +1,140 @@
+
+
+
+
+* {font-size: 20px;
+    margin-left:0;
+    padding: 0;
+    color: rgb(121, 68, 32);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+body{
+    background-color:rgb(10, 5, 4);
+    background-image: url(https://i.imgur.com/b00514W.jpg);
+    background-repeat: no-repeat;
+    background-size: contain  ;
+}
+/*Contains of the cover page*/
+ul.navigation {
+    list-style-type:none;
+    position:fixed;
+    margin: 0;
+    top: 0;
+    height: 8vh;   
+    background-color: rgb(116, 69, 38); 
+    width: 100%;
+    
+}
+.divabout{
+    width: 100%;
+    height: 50vh;
+    text-align:center;
+}
+   
+.myname{
+    font-size: 6em;
+    text-shadow: 0.3vw 0.5vw 0.5vw rgb(90, 30, 30);
+    color: rgb(211, 181, 136);
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    }
+.divabout p{color:rgb(211, 181, 136);
+text-align: center;}
+.divabout strong{color:rgb(211, 181, 136);}
+.navigation li{float: left;
+
+
+
+}
+ul li a {
+    text-decoration:none;
+    display: block;
+    padding: 5px 15px 13px 15px;
+    float: left;
+    color: rgb(48, 30, 24);
+    font-size: 1.3em;
+}
+#aboutmysel{padding-left: 14vw;}
+a:hover{background-color: rgb(190, 87, 17)
+;
+}
+@media screen and (max-width: 700px) {
+ul.navigation a{float: none;
+    text-align: left;
+    font-size: 6.8vw;
+    display: block;
+    font-size: 0.6em;
+    
+}
+ul.navigation{margin: 0;
+}
+.myname{font-size: 3em}
+*{font-size: 15px;}
+}
+
+/*section about me and my philosophy*/
+.maincontainer{
+    width:100%; 
+    height:400px;
+    display:flex;
+}
+.minicontainer1{    
+    width:35%;
+    max-height: 100%;
+    
+    margin-top: 11vh;
+    text-align: left;
+    margin-right: 0;
+}
+
+.minicontainer2{    
+    width: 35%;
+    max-height: 70%;
+    margin-left: 3vw;
+    
+}
+.minicontainer2 img{
+max-width: 100%;
+height: 100%;
+border-radius: 50%;
+}
+.minicontainer3{
+    width:35%;
+    max-height: 100%;
+    
+    margin-top: 11vh;
+    text-align: right;
+
+}
+.divphilosophy{text-align: center;
+     margin: 0 10vw 0 10vw;
+    }
+/*section for my likes*/
+
+.divlikes{width: 100%;
+     height: 80vh;
+    display: flex;
+
+    
+}
+.divlikes img{opacity: 0.5;}
+.divlikes img:hover{opacity: 1;}
+.divlikes1{width:25%;
+    margin: 10vh 12vw 0 12vw;
+}
+
+.thelastul {text-align:center;
+    
+
+
+}
+.bigfont{
+    font-size:3em;
+    color: rgb(211, 181, 136);
+    text-shadow: 0.23vw 0.2vw 0.3vw rgb(90, 30, 30);
+    text-align: center;
+}
+/*contact box/the end of page*/ 
+
